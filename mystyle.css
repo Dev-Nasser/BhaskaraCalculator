@@ -1,0 +1,78 @@
+body{
+    background-color:white;
+   
+ 
+
+}
+
+button{
+    margin-top: 9px;
+    color:  #ff6666;
+    padding: 8px;
+    border-radius: 10px;
+    
+
+
+}
+
+input{
+    width: 40%;
+
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+main{    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin: 50px;
+
+
+}
+
+#Calcular{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+a{ 
+    color: rgb(26, 23, 23);
+
+
+
+}
+
+
+
+h2{
+    font-size: 15px;
+
+}
+
+h1 , h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #ff6666;
+    
+}
+
+@media (max-width: 523px){
+    #Calcular{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
